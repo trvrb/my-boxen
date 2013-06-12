@@ -33,3 +33,10 @@ github "sudo",       "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+github "chrome",   "1.1.0"
+github "dropbox",  "1.1.0"
+github "java",     "1.1.1"
+github "things",   "1.0.1"
+github "transmit", "1.0.0"
+github "vlc",      "1.0.1"
+github "qt",       "1.0.0"
