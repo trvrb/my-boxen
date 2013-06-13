@@ -13,7 +13,7 @@ class people::trvrb {
 
   # programs
   package { 'beast':
-    source => 'trvrb/homebrew-science/beast-1.7.5',
+    source => 'trvrb/homebrew-science/beast-1.7.5/beast-1.7.5',
     ensure => installed,
     install_options => ['--HEAD']
   }
