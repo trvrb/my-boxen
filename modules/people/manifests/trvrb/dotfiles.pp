@@ -4,7 +4,7 @@ class people::trvrb::dotfiles {
   $dotfiles = "${home}/dotfiles"
 
   repository { $dotfiles:
-    source => "${::github_user}/dotfiles"
+    source => "trvrb/dotfiles"
   }
   
   file { "${home}/.aliases":

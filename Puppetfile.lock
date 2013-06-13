@@ -4,9 +4,19 @@ GITHUBTARBALL
     boxen (2.1.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-chrome
+  specs:
+    chrome (1.1.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-dropbox
+  specs:
+    dropbox (1.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-gcc
@@ -29,6 +39,11 @@ GITHUBTARBALL
     hub (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-java
+  specs:
+    java (1.1.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
     nginx (1.4.0)
@@ -37,6 +52,11 @@ GITHUBTARBALL
   remote: boxen/puppet-nodejs
   specs:
     nodejs (2.2.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-qt
+  specs:
+    qt (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-repository
@@ -54,6 +74,21 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-things
+  specs:
+    things (1.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-transmit
+  specs:
+    transmit (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-vlc
+  specs:
+    vlc (1.0.1)
+
+GITHUBTARBALL
   remote: cprice-puppet/puppetlabs-inifile
   specs:
     inifile (0.9.0)
@@ -65,16 +100,23 @@ GITHUBTARBALL
 
 DEPENDENCIES
   boxen (= 2.1.0)
+  chrome (= 1.1.0)
   dnsmasq (= 1.0.0)
+  dropbox (= 1.1.0)
   gcc (= 1.0.0)
   git (= 1.2.2)
   homebrew (= 1.1.2)
   hub (= 1.0.0)
   inifile (= 0.9.0)
+  java (= 1.1.1)
   nginx (= 1.4.0)
   nodejs (= 2.2.0)
+  qt (= 1.0.0)
   repository (= 2.0.2)
   ruby (= 4.1.0)
   stdlib (= 4.0.2)
   sudo (= 1.0.0)
+  things (= 1.0.1)
+  transmit (= 1.0.0)
+  vlc (= 1.0.1)
 
