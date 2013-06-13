@@ -1,9 +1,4 @@
 GITHUBTARBALL
-  remote: boxen/puppet-bbedit
-  specs:
-    bbedit (1.0.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (2.1.0)
@@ -109,7 +104,6 @@ GITHUBTARBALL
     stdlib (4.0.2)
 
 DEPENDENCIES
-  bbedit (= 1.0.1)
   boxen (= 2.1.0)
   chrome (= 1.1.0)
   dnsmasq (= 1.0.0)

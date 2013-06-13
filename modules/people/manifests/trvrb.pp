@@ -10,7 +10,6 @@ class people::trvrb {
   include java
   include vlc  
   include transmit
-  include bbedit
   include intellij
   
   # ruby
