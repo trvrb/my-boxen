@@ -11,6 +11,7 @@ class people::trvrb {
   include vlc  
   include transmit
   include intellij
+  include notational_velocity
   
   # ruby
   class { 'ruby::global':
