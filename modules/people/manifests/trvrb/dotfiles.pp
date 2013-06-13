@@ -4,7 +4,8 @@ class people::trvrb::dotfiles {
   $dotfiles = "${home}/dotfiles"
 
   repository { $dotfiles:
-    source => "trvrb/dotfiles"
+    source => "trvrb/dotfiles",
+    ensure => present
   }
   
   file { "${home}/.aliases":
