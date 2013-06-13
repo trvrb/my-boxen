@@ -9,7 +9,8 @@ class people::trvrb {
   include things
   include java
   include vlc  
-  include transmit  
+  include transmit
+  include bbedit
   
   # ruby
   class { 'ruby::global':
