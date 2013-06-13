@@ -44,6 +44,11 @@ GITHUBTARBALL
     hub (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-intellij
+  specs:
+    intellij (1.2.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-java
   specs:
     java (1.1.1)
@@ -114,6 +119,7 @@ DEPENDENCIES
   homebrew (= 1.1.2)
   hub (= 1.0.0)
   inifile (= 0.9.0)
+  intellij (= 1.2.0)
   java (= 1.1.1)
   nginx (= 1.4.0)
   nodejs (= 2.2.0)

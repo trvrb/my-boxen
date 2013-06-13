@@ -11,6 +11,7 @@ class people::trvrb {
   include vlc  
   include transmit
   include bbedit
+  include intellij
   
   # ruby
   class { 'ruby::global':
