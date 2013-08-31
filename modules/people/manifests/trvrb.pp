@@ -17,6 +17,11 @@ class people::trvrb {
   class { 'ruby::global':
     version => '1.9.3'
   }  
+  
+  # node.js
+  class { 'nodejs::global':
+    version => 'v0.10'
+  }  
 
   # programs
 #  package { 'beast':
